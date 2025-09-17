@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\Desktop\\POE Project\\POE Project.csproj": {}
+    "C:\\Users\\lab_services_student\\Desktop\\POE-PROJECT\\POE Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\Desktop\\POE Project\\POE Project.csproj": {
+    "C:\\Users\\lab_services_student\\Desktop\\POE-PROJECT\\POE Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\POE Project\\POE Project.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\POE-PROJECT\\POE Project.csproj",
         "projectName": "POE Project",
-        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\POE Project\\POE Project.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\POE-PROJECT\\POE Project.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\POE Project\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\POE-PROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

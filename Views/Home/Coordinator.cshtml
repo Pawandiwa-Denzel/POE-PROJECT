@@ -2,9 +2,34 @@
     ViewData["Title"] = "Coordinator";
 }
 
-<h2>Coordinator View - Verify Claims</h2>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Coordinator View - Verify Claims</h2>
 
-<ul>
-    <li>Claim #101 - Pending <button>Approve</button> <button>Reject</button></li>
-    <li>Claim #102 - Pending <button>Approve</button> <button>Reject</button></li>
-</ul>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Claim ID</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Claim #101</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                    <button class="btn btn-success btn-sm">Approve</button>
+                    <button class="btn btn-danger btn-sm">Reject</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Claim #102</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                    <button class="btn btn-success btn-sm">Approve</button>
+                    <button class="btn btn-danger btn-sm">Reject</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

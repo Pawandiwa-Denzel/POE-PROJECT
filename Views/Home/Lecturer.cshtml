@@ -2,22 +2,30 @@
     ViewData["Title"] = "Lecturer";
 }
 
-<h2>Lecturer Claim Submission</h2>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Lecturer Claim Submission</h2>
 
-<form>
-    <label>Hours Worked:</label><br />
-    <input type="text" /><br /><br />
+    <form class="card p-4 shadow-sm">
+        <div class="mb-3">
+            <label class="form-label">Hours Worked</label>
+            <input type="number" class="form-control" placeholder="Enter hours" />
+        </div>
 
-    <label>Hourly Rate:</label><br />
-    <input type="text" /><br /><br />
+        <div class="mb-3">
+            <label class="form-label">Hourly Rate</label>
+            <input type="number" class="form-control" placeholder="Enter rate" />
+        </div>
 
-    <label>Additional Notes:</label><br />
-    <textarea rows="3"></textarea><br /><br />
+        <div class="mb-3">
+            <label class="form-label">Additional Notes</label>
+            <textarea class="form-control" rows="3" placeholder="Enter notes..."></textarea>
+        </div>
 
-    <button type="button">Submit Claim</button>
-</form>
+        <button type="button" class="btn btn-primary">Submit Claim</button>
+    </form>
 
-<hr />
-
-<h3>Upload Supporting Document</h3>
-<button type="button">Upload File</button>
+    <div class="mt-4">
+        <h4>Upload Supporting Document</h4>
+        <button class="btn btn-secondary">Upload File</button>
+    </div>
+</div>

@@ -2,9 +2,17 @@
     ViewData["Title"] = "Status";
 }
 
-<h2>Claim Status Tracking</h2>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Claim Status Tracking</h2>
 
-<ul>
-    <li>Claim #101 - Approved</li>
-    <li>Claim #102 - Pending</li>
-</ul>
+    <div class="card shadow-sm p-3">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                Claim #101 - <span class="badge bg-success">Approved</span>
+            </li>
+            <li class="list-group-item">
+                Claim #102 - <span class="badge bg-warning text-dark">Pending</span>
+            </li>
+        </ul>
+    </div>
+</div>
